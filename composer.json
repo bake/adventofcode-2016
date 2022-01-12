@@ -1,0 +1,28 @@
+{
+  "name": "bake/adventofcode-2015",
+  "description": "Advent of Code 2015 in PHP",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Bake\\AdventOfCode2015\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "bake",
+      "email": "bake@192k.pw"
+    }
+  ],
+  "scripts": {
+    "test": "pest --parallel"
+  },
+  "require-dev": {
+    "pestphp/pest": "^1.21",
+    "pestphp/pest-plugin-parallel": "^1.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  }
+}
