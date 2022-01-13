@@ -34,7 +34,7 @@ function decompressed_length(string $string): int
   $marker = substr($string, $left + 1, $right - $left - 1);
   $marker = array_map(intval(...), explode('x', $marker));
   return array_sum([
-    strlen(substr($string, 0, $left)),
+    $left,
     decompressed_length(substr($string, $right + 1, $marker[0])) * $marker[1],
     decompressed_length(substr($string, $right + 1 + $marker[0])),
   ]);
