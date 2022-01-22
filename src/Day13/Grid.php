@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bake\AdventOfCode2015\Day13;
+namespace Bake\AdventOfCode2016\Day13;
 
 class Grid
 {

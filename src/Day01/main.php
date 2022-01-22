@@ -1,6 +1,6 @@
 <?php
 
-namespace Bake\AdventOfCode2015\Day01;
+namespace Bake\AdventOfCode2016\Day01;
 
 enum Direction: string
 {

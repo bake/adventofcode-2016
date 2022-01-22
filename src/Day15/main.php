@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bake\AdventOfCode2015\Day15;
+namespace Bake\AdventOfCode2016\Day15;
 
 class Disc
 {

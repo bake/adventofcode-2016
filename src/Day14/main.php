@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Bake\AdventOfCode2015\Day14;
+namespace Bake\AdventOfCode2016\Day14;
 
 function input($handle): string
 {

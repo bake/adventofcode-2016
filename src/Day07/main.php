@@ -1,6 +1,6 @@
 <?php
 
-namespace Bake\AdventOfCode2015\Day07;
+namespace Bake\AdventOfCode2016\Day07;
 
 function input($handle): iterable
 {

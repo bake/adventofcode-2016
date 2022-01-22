@@ -1,10 +1,10 @@
 {
-  "name": "bake/adventofcode-2015",
-  "description": "Advent of Code 2015 in PHP",
+  "name": "bake/adventofcode-2016",
+  "description": "Advent of Code 2016 in PHP",
   "type": "project",
   "autoload": {
     "psr-4": {
-      "Bake\\AdventOfCode2015\\": "src/"
+      "Bake\\AdventOfCode2016\\": "src/"
     }
   },
   "authors": [

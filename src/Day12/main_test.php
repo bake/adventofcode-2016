@@ -1,6 +1,6 @@
 <?php
 
-namespace Bake\AdventOfCode2015\Day12;
+namespace Bake\AdventOfCode2016\Day12;
 
 require __DIR__ . '/main.php';
 

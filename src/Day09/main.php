@@ -1,6 +1,6 @@
 <?php
 
-namespace Bake\AdventOfCode2015\Day09;
+namespace Bake\AdventOfCode2016\Day09;
 
 function input($handle): string
 {
