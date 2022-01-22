@@ -45,7 +45,6 @@ test('day 9 part 2 sample (25x3)(3x3)ABC(2x3)XY(5x2)PQRSTX(18x9)(3x2)TWO(5x7)SEV
 })->group('day09', 'sample');
 
 test('day 9 input', function (): void {
-  ini_set('memory_limit', -1);
   $handle = fopen(__DIR__ . '/input.txt', 'r');
   $string = input($handle);
   expect(part1($string))->toBe(138735);
